@@ -1,0 +1,46 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "react"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals":{
+         "Zepto":true,
+         "FastClick":true,
+         "showLoading":true,
+         "ant":true,
+         "BizLog":true,
+         "hideLoading":true,
+         "AlipayJSBridge":true
+    },
+    "rules":{
+       "vars-on-tap":[0],
+       "no-console":[0],
+       "no-alert":[0],
+       "eqeqeq":[0],
+       "quotes":[0],
+       "spaced-comment": ["error","always",{"exceptions":["-","+"]}],
+       "linebreak-style": ["error", "windows"],
+       "indent":["error","tab"],
+       "no-tabs":[0],
+       "no-var":[0],
+       "no-plusplus":[0],
+       "no-mixed-operators":[0],
+       "no-unused-vars":[0],
+       "no-use-before-define":[0],
+       "camelcase": ["error", {"properties": "never"}],
+       "prefer-destructuring": ["error", {
+                "array": false,
+                "object": false
+              }, {
+                "enforceForRenamedProperties": false
+              }],
+         "func-names": [0],
+          "no-useless-concat": [0],
+          "no-multi-str":[0],
+          "no-underscore-dangle":[0]
+    }
+}
